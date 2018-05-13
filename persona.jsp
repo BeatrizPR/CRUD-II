@@ -74,7 +74,7 @@
 	</form>
 	</td>
 	<td>
-        <form method="get" action="borraExpo.jsp">
+        <form method="get" action="borraPersona.jsp">
           <input type="hidden" name="CodPer" value="<%=listado.getString("CodPer") %>"/>
           <button type="submit" class="icon"><span class="icon"></span> Eliminar</button>
         </form>
