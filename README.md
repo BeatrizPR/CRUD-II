@@ -79,10 +79,10 @@ Tablas que surgen:
 
 
 ## Esquema de la base de datos:
-
+<p align="center">
 <img src="capturas/esquema-BD.jpg" width="680px">
 
-
+</p>
 
 ## Capturas de la ampliación del CRUD con nuevas funcionalidades:
 
