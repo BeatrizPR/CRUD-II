@@ -42,12 +42,12 @@
             </tr>
             </thead>
             <form method="get" action="grabaPersona.jsp">
-                <tr><th><input type="text" name="CodPer" size="5"</th>
-                <th><input type="text" name="NomPer" size="25"></th>
-                <th><input type="text" name="ApePer" size="35"></th>
+                <tr><th><input type="text" name="CodPer" required size="5"</th>
+                <th><input type="text" name="NomPer" required size="25"></th>
+                <th><input type="text" name="ApePer" required size="35"></th>
                 <th><input type="text" name="Sexo" size="20"></th>
                 <th><input type="text" name="Titulacion" size="20"></th>
-                <th><input type="text" name="TipoPer" size="20"></th>
+                <th><input type="text" name="TipoPer" required size="20"></th>
                 <td><button type="submit" value="Añadir" class="icon"><span class="icon"></span> Añadir</button></td>
               
             </tr>           

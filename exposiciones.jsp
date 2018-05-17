@@ -40,8 +40,8 @@
             </tr>
             </thead>
             <form method="get" action="grabaExpo.jsp">
-                <tr><th><input type="text" name="CodExpo" size="5"</th>
-                <th><input type="text" name="NomExpo" size="60"></th>
+                <tr><th><input type="text" name="CodExpo" required size="5"</th>
+                <th><input type="text" name="NomExpo" required size="60"></th>
                 <th><input type="text" name="MoviExpo" size="35"></th>
                 <th><input type="text" name="TipoObra" size="20"></th>
                 <td><button type="submit" value="Añadir" class="icon"><span class="icon"></span> Añadir</button></td>

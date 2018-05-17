@@ -27,13 +27,13 @@
           <form method="get" action="grabaPersonaModificada.jsp">
             <div class="formu"> 
               <label>&nbsp;&nbsp;Cod. Persona: &nbsp;</label>
-              <input type="text" size="5" name="CodPer" value="<%= request.getParameter("CodPer") %>" readonly>
+              <input type="text" size="5" name="CodPer" required value="<%= request.getParameter("CodPer") %>" readonly>
             </div>
             <div class="formu">
-            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomPer" value="<%= request.getParameter("NomPer") %>">
+            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomPer" required value="<%= request.getParameter("NomPer") %>">
             </div>
             <div class="formu">
-            <label>&nbsp;&nbsp;Apellido: &nbsp;</label><input type="text" size="40" name="ApePer" value="<%= request.getParameter("ApePer") %>">
+            <label>&nbsp;&nbsp;Apellido: &nbsp;</label><input type="text" size="40" name="ApePer" required value="<%= request.getParameter("ApePer") %>">
             </div>
             <div class="formu">
             <label>&nbsp;&nbsp;Sexo: &nbsp;</label><input type="text" size="40" name="Sexo" value="<%= request.getParameter("Sexo") %>">
@@ -42,7 +42,7 @@
              <label>&nbsp;&nbsp;Titulacion: &nbsp;</label><input type="text" size="20" name="Titulacion" value="<%= request.getParameter("Titulacion") %>">
             </div>
             <div class="formu">
-            <label>&nbsp;&nbsp;Tipo de persona: &nbsp;</label><input type="text" size="40" name="TipoPer" value="<%= request.getParameter("TipoPer") %>">
+            <label>&nbsp;&nbsp;Tipo de persona: &nbsp;</label><input type="text" size="40" name="TipoPer" required value="<%= request.getParameter("TipoPer") %>">
             </div>
             <br>
             <hr>

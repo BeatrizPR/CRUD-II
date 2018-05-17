@@ -40,9 +40,9 @@
             </tr>
             </thead>
             <form method="get" action="grabaEnti.jsp">
-                <tr><th><input type="text" name="CodEnti" size="5"</th>
-                <th><input type="text" name="NomEnti" size="60"></th>
-                <th> <div class="dropdown" ><select name="TipoEnti" required=""  class="dropdown-select">
+                <tr><th><input type="text" name="CodEnti" required size="5"</th>
+                <th><input type="text" name="NomEnti" required size="60"></th>
+                <th> <div class="dropdown" ><select name="TipoEnti" required  class="dropdown-select">
             <%ArrayList<String> entidadesTipo = new ArrayList<String>();
               entidadesTipo.add("Museo");
               entidadesTipo.add("Centro de Arte Contemporáneo");

@@ -27,10 +27,10 @@
           <form method="get" action="grabaExpoModificado.jsp">
             <div class="formu"> 
               <label>&nbsp;&nbsp;Cod. Exposición: &nbsp;</label>
-              <input type="text" size="5" name="CodExpo" value="<%= request.getParameter("CodExpo") %>" readonly>
+              <input type="text" size="5" name="CodExpo" required value="<%= request.getParameter("CodExpo") %>" readonly>
             </div>
             <div class="formu">
-            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomExpo" value="<%= request.getParameter("NomExpo") %>">
+            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomExpo" required value="<%= request.getParameter("NomExpo") %>">
             </div>
             <div class="formu">
              <label>&nbsp;&nbsp;Movimiento artístico: &nbsp;</label><input type="text" size="35" name="MoviExpo" value="<%= request.getParameter("MoviExpo") %>">

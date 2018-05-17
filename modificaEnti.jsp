@@ -38,11 +38,11 @@
           <form method="get" action="grabaEntiModificada.jsp">
             <div class="formu"> 
               <label>&nbsp;&nbsp;Cod. Entidad: &nbsp;</label>
-              <input type="text" size="5" name="CodEnti" value="<%= request.getParameter("CodEnti") %>" readonly>
+              <input type="text" size="5" name="CodEnti" required value="<%= request.getParameter("CodEnti") %>" readonly>
             </div>
             <br>
             <div class="formu">
-            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomEnti" value="<%= request.getParameter("NomEnti") %>">
+            <label>&nbsp;&nbsp;Nombre: &nbsp;</label><input type="text" size="40" name="NomEnti" required value="<%= request.getParameter("NomEnti") %>">
             </div>
             <br>
             <div class="formu">
